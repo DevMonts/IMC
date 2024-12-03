@@ -7,23 +7,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bg"
     tools:context=".Result">
 
     <TextView
         android:id="@+id/Result"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:maxLength="5"
-        android:textSize="163dp"
+        android:textColor="@color/yellow_strip"
+        android:textSize="50dp"
         tools:text="29.88" />
 
     <TextView
         android:id="@+id/Body"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="86dp"
+        android:textColor="@color/yellow_strip"
+        android:textSize="50dp"
         tools:text="Sobrepeso" />
 
 </LinearLayout>

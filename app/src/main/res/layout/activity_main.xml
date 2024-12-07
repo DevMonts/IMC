@@ -20,14 +20,13 @@
             android:id="@+id/textInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/yellow_strip"
-            tools:layout_editor_absoluteX="67dp">
+            android:textColorHint="@color/yellow_strip">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/WeightImput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/fat"
+                android:drawableEnd="@drawable/fat"
                 android:hint="@string/WeightHint"
                 android:inputType="numberDecimal"
                 android:maxLength="6" />
@@ -36,14 +35,13 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/yellow_strip"
-            tools:layout_editor_absoluteX="41dp">
+            android:textColorHint="@color/yellow_strip">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/HeightImput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/arrow"
+                android:drawableEnd="@drawable/arrow"
                 android:hint="@string/HeightHint"
                 android:inputType="numberDecimal"
                 android:maxLength="4" />
